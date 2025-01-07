@@ -4,10 +4,6 @@ import React, { Component } from 'react'
 class CreateArticle extends Component {
   render() {
     console.log('CreatArticle 실행');
-    let classNames = 'menu';
-    if (this.props.mode === 'welcome') {
-      classNames += ' hidden';
-    }
     return (
       <section>
         <article>

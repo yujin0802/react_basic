@@ -16,10 +16,6 @@ class UpdateArticle extends Component {
   render() {
     console.log('UpdateArticle 실행');
     console.log(this.props.data);
-    let classNames = 'menu';
-    if (this.props.mode === 'welcome') {
-      classNames += ' hidden';
-    }
     return (
       <section>
         <article>
